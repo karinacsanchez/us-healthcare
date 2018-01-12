@@ -1,0 +1,70 @@
+div.logo-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+.logo {
+	max-height: 300px
+}
+
+div.container {
+    font-family: 'Montserrat';
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;}
+
+div.container h1 {
+	text-align: center;
+    font-size: 100px;
+}
+
+div.container p {
+    text-align: center;
+    font-size: 50px
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.input-box {
+    display: inline;    
+}
+
+input {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    }
+
+p.in {
+    display: inline-block;
+}
+
+span.observation {
+    width: 300px;
+    display: block;
+}
+
+div.container button {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4AC7EB;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 200px;
+    text-align: center;
+    display: block;
+    font-size: 100px
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
